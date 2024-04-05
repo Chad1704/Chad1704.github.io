@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '@daisyui/css';
+
+@import 'tailwind.config.js';
+
+@font-face{
+    font-family: "MuliBold";
+    src: url(/assets/Muli-Bold.ttf) format(".ttf");
+}
+
+@font-face{
+    font-family: "test";
+    src: url(/assets/Oblong_SansTrial-SemiBold-BF65f3bfbbc92f1.otf) format(".otf");
+}
+
+@layer components{
+
+    .circle{
+        height: 24px;
+        width: 24px;
+        border-radius: 24px;
+    
+    }
+   
+    .p{
+        font-family:sans-serif
+    }
+}
